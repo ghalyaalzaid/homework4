@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grades</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h2>ادخل درجتك</h2>
+        <div class="center">
+          <input
+            dir="rtl"
+            type="text"
+            placeholder="درجتك بالأرقام"
+            id="inputNumber"
+            style="text-align: center; font-size: 1.5rem; margin: 1rem"
+          />
+        </div>
+        <div class="center">
+          <button onclick="getLetterGrade();">ادخل</button>
+        </div>
+        <div class="center">
+          <h2 id="status"></h2>
+        </div>
+      </div>
+    <script src="./page.js"></script>
+</body>
+</html>
